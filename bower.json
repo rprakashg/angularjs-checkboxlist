@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-checkboxlist",
+  "version": "1.0.0",
+  "authors": [
+    "Ram Gopinathan <rprakashg@outlook.com>"
+  ],
+  "description": "Databindable checkbox list control implemented using angularjs",
+  "main": "checkboxlist.js",
+  "keywords": [
+    "components"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/rprakashg/angularjs-checkboxlist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.0.6"
+  }
+}

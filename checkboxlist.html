@@ -1,0 +1,6 @@
+<div class="icon-checkbox" data-ng-repeat="option in options">
+    <input type="checkbox" id="checkbox-{{$index}}"
+           role="checkbox" ng-model="selecteditems[option[valueattrib]]"
+           ng-change="onChange(option)" />
+    <label for="checkbox-{{$index}}">{{option[displayattrib]}}</label>
+</div>
