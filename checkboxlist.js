@@ -16,11 +16,11 @@ angular.module('rpg.Checkboxlist', [])
 
                 $scope.onChanged = function (current) {
                     var item = $scope.options[current];
-                    var index = $scope.selecteditems.indexOf(item.value);
+                    var index = $scope.selecteditems.indexOf(item[valueattrib]);
                     if (index > -1) {
                         $scope.selecteditems.splice(index, 1)
                     } else {
-                        $scope.selecteditems.push(item.value);
+                        $scope.selecteditems.push(item[valueattrib]);
                     }
                 }
             },
