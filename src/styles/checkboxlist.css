@@ -23,7 +23,7 @@
 }
 .icon-checkbox [type="checkbox"]:not(:checked) + label:after, .icon-checkbox [type="checkbox"]:checked + label:after {
     content: '';
-    background-image: url("icon-radio-checkmark.png");
+    background-image: url("../images/icon-radio-checkmark.png");
     background-repeat: no-repeat;
     position: absolute;
     left: 2px;

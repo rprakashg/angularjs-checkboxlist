@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>AngularJS checkbox list control</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+    <link rel="stylesheet" href="src/styles/checkboxlist.css" />
+
+    <script src="src/scripts/CheckboxList.js"></script>
+    <script src="app.js"></script>
 </head>
-<body>
+<body ng-app="testApp">
+    <div ng-controller="MainCtrl">
+        <div>
+            <checkboxlist data-list="checkboxOptions" selecteditems="selectedCheckboxItems" />
+        </div>
+
+
+        <p>
+            Selected Items : {{selectedCheckboxItems}}
+        </p>
+    </div>
+
 
 </body>
 </html>

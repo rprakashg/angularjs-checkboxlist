@@ -5,7 +5,7 @@
     "Ram Gopinathan <rprakashg@outlook.com>"
   ],
   "description": "Databindable checkbox list control implemented using angularjs",
-  "main": "checkboxlist.js",
+  "main": "scripts/checkboxlist.js",
   "keywords": [
     "components"
   ],
